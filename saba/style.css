@@ -1,0 +1,76 @@
+html, body {
+    overflow-x: hidden;
+}
+@media (max-width: 991px) {
+    .hero-card {
+        right: 20px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-card {
+        right: 10px !important;
+        width: 160px !important;
+    }
+}
+.text-purple {
+    color: #7837e8 !important;
+}
+
+.service-hero {
+    background: #f5efff;
+    min-height: 320px;
+    display: flex;
+    align-items: center;
+}
+
+.service-pet-img {
+    max-height: 280px;
+    object-fit: contain;
+}
+
+.service-badge {
+    background: #f0e4ff;
+    color: #7837e8;
+    font-size: 16px;
+    color: #5b21b6 !important;
+}
+
+.service-card {
+    border: 1px solid #eee !important;
+    border-radius: 18px !important;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(120,55,232,0.15);
+}
+
+.service-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #f2eaff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 38px;
+}
+.bg-primary {
+    background-color: #7837E8 !important;
+}
+.text-primary {
+    color: #7837E8 !important;
+}
+
+.btn-primary {
+    background-color: #7837E8 !important;
+    border-color: #7837E8 !important;
+}
+
+.btn-primary:hover {
+    background-color: #6628d4 !important;
+    border-color: #6628d4 !important;
+}

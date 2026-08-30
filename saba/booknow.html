@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+       <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white py-3 shadow-sm">
+    <div class="container">
+
+        <a href="index.html" class="navbar-brand fw-bold fs-3">
+            🐾 Paw<span style="color:#7837e8;">Care</span>
+        </a>
+
+        <div class="navbar-nav ms-auto gap-3 align-items-center">
+
+            <a href="index.html" class="nav-link">
+                Home
+            </a>
+
+            <a href="service.html" class="nav-link">
+                Services
+            </a>
+
+            <a href="booknow.html"
+               class="nav-link fw-semibold"
+               style="color:#7837e8;">
+                Book Now
+            </a>
+
+            <a href="#" class="nav-link">
+                Contact
+            </a>
+
+            <span class="text-secondary ms-2">
+                📞 +92 300 1234567
+            </span>
+
+            <a href="login.html"
+               class="btn px-4"
+               style="border:1px solid #7837e8; color:#7837e8;">
+                Login
+            </a>
+
+            <a href="register.html"
+               class="btn px-4 text-white"
+               style="background:#7837e8;">
+                Register
+            </a>
+
+        </div>
+
+    </div>
+</nav>
+
+    <!-- BOOKING SECTION -->
+    <section class="py-5" style="background:#f5efff; min-height:90vh;">
+
+        <div class="container">
+        <!-- BOOKING HERO -->
+<div class="row align-items-center mb-5">
+
+    <!-- LEFT -->
+    <div class="col-lg-6">
+
+        <h1 class="fw-bold display-4">
+            Book The Best Care
+            <br>
+            For <span style="color:#7837e8;">Your Pets</span>
+        </h1>
+
+        <p class="text-secondary fs-5">
+            Fill in the details below to book a service for your
+            beloved pet. We'll take care of the rest!
+        </p>
+
+        <div style="color:#7837e8; font-size:20px;">
+            — 🐾 —
+        </div>
+
+    </div>
+
+    <!-- RIGHT IMAGE -->
+    <div class="col-lg-6 text-center">
+
+        <img src="images/pet img.png"
+             class="img-fluid"
+             alt="Pet Care"
+             style="max-height:320px;">
+
+    </div>
+
+</div>
+
+            <!-- FORM -->
+            <div class="row justify-content-center">
+
+                <div class="col-lg-8">
+
+                    <div class="bg-white p-4 p-md-5 rounded-4 shadow">
+
+                        <h3 class="fw-bold mb-4 text-center">
+                            🐾 Booking Details
+                        </h3>
+
+
+                        <div class="row g-4">
+
+                            <!-- NAME -->
+                            <div class="col-md-6">
+
+                                <label class="form-label fw-semibold">
+                                    Your Name
+                                </label>
+
+                                <input type="text"
+                                    class="form-control form-control-lg"
+                                    placeholder="Enter your name">
+
+                            </div>
+
+
+                            <!-- EMAIL -->
+                            <div class="col-md-6">
+
+                                <label class="form-label fw-semibold">
+                                    Email Address
+                                </label>
+
+                                <input type="email"
+                                    class="form-control form-control-lg"
+                                    placeholder="Enter your email">
+
+                            </div>
+
+
+                            <!-- PHONE -->
+                            <div class="col-md-6">
+
+                                <label class="form-label fw-semibold">
+                                    Phone Number
+                                </label>
+
+                                <input type="tel"
+                                    class="form-control form-control-lg"
+                                    placeholder="+92 300 1234567">
+
+                            </div>
+
+
+                            <!-- PET NAME -->
+                            <div class="col-md-6">
+
+                                <label class="form-label fw-semibold">
+                                    Pet Name
+                                </label>
+
+                                <input type="text"
+                                    class="form-control form-control-lg"
+                                    placeholder="Enter pet name">
+
+                            </div>
+
+
+                            <!-- SERVICE -->
+                            <div class="col-md-6">
+
+                                <label class="form-label fw-semibold">
+                                    Select Service
+                                </label>
+
+                                <select class="form-select form-select-lg">
+
+                                    <option selected>
+                                        Choose a service
+                                    </option>
+
+                                    <option>
+                                        Pet Grooming
+                                    </option>
+
+                                    <option>
+                                        Dog Walking
+                                    </option>
+
+                                    <option>
+                                        Pet Sitting
+                                    </option>
+
+                                    <option>
+                                        Vet Consultation
+                                    </option>
+
+                                    <option>
+                                        Pet Boarding
+                                    </option>
+
+                                    <option>
+                                        Pet Haircut
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <!-- DATE -->
+                            <div class="col-md-6">
+
+                                <label class="form-label fw-semibold">
+                                    Booking Date
+                                </label>
+
+                                <input type="date"
+                                    class="form-control form-control-lg">
+
+                            </div>
+
+
+                            <!-- TIME -->
+                            <div class="col-md-6">
+
+                                <label class="form-label fw-semibold">
+                                    Preferred Time
+                                </label>
+
+                                <select class="form-select form-select-lg">
+
+                                    <option selected>
+                                        Select time
+                                    </option>
+
+                                    <option>
+                                        10:00 AM
+                                    </option>
+
+                                    <option>
+                                        12:00 PM
+                                    </option>
+
+                                    <option>
+                                        2:00 PM
+                                    </option>
+
+                                    <option>
+                                        4:00 PM
+                                    </option>
+
+                                    <option>
+                                        6:00 PM
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <!-- MESSAGE -->
+                            <div class="col-12">
+
+                                <label class="form-label fw-semibold">
+                                    Additional Message
+                                </label>
+
+                                <textarea
+                                    class="form-control"
+                                    rows="4"
+                                    placeholder="Tell us anything about your pet..."></textarea>
+
+                            </div>
+
+
+                            <!-- BUTTON -->
+                            <div class="col-12 text-center pt-2">
+
+                                <button type="submit"
+                                    class="btn btn-lg px-5 text-white"
+                                    style="background:#7837e8;">
+
+                                    Book Now 🐾
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+   <!-- WHY BOOK WITH US -->
+<section class="py-5 bg-white">
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">
+                Why Book With <span style="color:#7837e8;">PawCare?</span>
+            </h2>
+
+            <p class="text-secondary">
+                We make pet care simple, safe and stress-free.
+            </p>
+
+            <div class="d-flex justify-content-center align-items-center gap-3">
+                <span style="width:35px; height:3px; background:#7837e8;"></span>
+                <span style="font-size:20px;">🐾</span>
+                <span style="width:35px; height:3px; background:#7837e8;"></span>
+            </div>
+        </div>
+
+
+        <div class="row g-4">
+
+            <div class="col-md-3">
+                <div class="text-center p-4 bg-light rounded-4 h-100 shadow-sm">
+
+                    <div class="fs-1 mb-3">🛡️</div>
+
+                    <h5 class="fw-bold">Verified Professionals</h5>
+
+                    <p class="text-secondary mb-0">
+                        Trusted and experienced pet care experts.
+                    </p>
+
+                </div>
+            </div>
+
+
+            <div class="col-md-3">
+                <div class="text-center p-4 bg-light rounded-4 h-100 shadow-sm">
+
+                    <div class="fs-1 mb-3">🔒</div>
+
+                    <h5 class="fw-bold">Secure Booking</h5>
+
+                    <p class="text-secondary mb-0">
+                        Your booking details are safe with us.
+                    </p>
+
+                </div>
+            </div>
+
+
+            <div class="col-md-3">
+                <div class="text-center p-4 bg-light rounded-4 h-100 shadow-sm">
+
+                    <div class="fs-1 mb-3">⏰</div>
+
+                    <h5 class="fw-bold">24/7 Support</h5>
+
+                    <p class="text-secondary mb-0">
+                        We are here whenever you need us.
+                    </p>
+
+                </div>
+            </div>
+
+
+            <div class="col-md-3">
+                <div class="text-center p-4 bg-light rounded-4 h-100 shadow-sm">
+
+                    <div class="fs-1 mb-3">💜</div>
+
+                    <h5 class="fw-bold">Happy Pets</h5>
+
+                    <p class="text-secondary mb-0">
+                        We care for pets like our own.
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!-- CTA SECTION -->
+<section class="py-5" style="background:#f5efff;">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-md-8">
+
+                <h2 class="fw-bold">
+                    Ready to Give Your Pet
+                    <span style="color:#7837e8;">The Best Care?</span>
+                </h2>
+
+                <p class="text-secondary fs-5 mb-0">
+                    Book a trusted pet care professional today and
+                    give your furry friend the care they deserve.
+                </p>
+
+            </div>
+
+
+            <div class="col-md-4 text-md-end text-center mt-4 mt-md-0">
+
+                <a href="booknow.html"
+                   class="btn text-white px-4 py-3 rounded-3"
+                   style="background:#7837e8;">
+
+                    Book Now 🐾
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="py-5 text-white" style="background:#29234f;">
+    <div class="container">
+
+        <div class="row g-4">
+
+            <!-- PawCare -->
+            <div class="col-md-4">
+                <h4 class="fw-bold">
+                    🐾 Paw<span style="color:#7837e8;">Care</span>
+                </h4>
+
+                <p class="text-light">
+                    We provide the best care, love and attention
+                    for your pets.
+                </p>
+
+                <div class="d-flex gap-3">
+                    <span>●</span>
+                    <span>●</span>
+                    <span>●</span>
+                </div>
+            </div>
+
+
+            <!-- Quick Links -->
+            <div class="col-md-2">
+                <h6 class="fw-bold mb-3">Quick Links</h6>
+
+                <p class="mb-2">Home</p>
+                <p class="mb-2">Services</p>
+                <p class="mb-2">Book Now</p>
+                <p class="mb-2">Contact</p>
+            </div>
+
+
+            <!-- Our Services -->
+            <div class="col-md-3">
+                <h6 class="fw-bold mb-3">Our Services</h6>
+
+                <p class="mb-2">Pet Grooming</p>
+                <p class="mb-2">Dog Walking</p>
+                <p class="mb-2">Pet Sitting</p>
+                <p class="mb-2">Vet Consultation</p>
+                <p class="mb-2">Pet Boarding</p>
+            </div>
+
+
+            <!-- Contact -->
+            <div class="col-md-3">
+                <h6 class="fw-bold mb-3">Contact Us</h6>
+
+                <p class="mb-2">📞 +92 300 1234567</p>
+                <p class="mb-2">✉️ info@pawcare.com</p>
+                <p class="mb-2">📍 Karachi, Pakistan</p>
+            </div>
+
+        </div>
+
+
+        <hr class="my-4">
+
+        <div class="text-center">
+            <small>
+                © 2026 PawCare. All Rights Reserved.
+            </small>
+        </div>
+
+    </div>
+</footer>
+</body>
+</html>

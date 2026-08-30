@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quickserve</title>
+     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-white py-3 shadow-sm">
+
+    <div class="container">
+
+        <!-- LOGO -->
+        <a href="#" class="navbar-brand d-flex align-items-center">
+
+            <span class="fs-4 me-2">🐾</span>
+
+            <div>
+                <h4 class="fw-bold mb-0">
+                    Paw<span style="color:#7837e8;">Care</span>
+                </h4>
+
+                <small class="text-secondary">
+                    Happy Pet, Happy You
+                </small>
+            </div>
+
+        </a>
+
+
+        <!-- TOGGLER -->
+        <button class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+
+        <!-- MENU -->
+        <div class="collapse navbar-collapse" id="navbarMenu">
+
+            <div class="navbar-nav mx-auto gap-lg-3">
+        <a href="index.html" class="nav-link fw-semibold"
+            style="color:#7837e8;">
+               Home</a>
+
+             <a href="service.html" class="nav-link">
+               Service</a>
+               <a href="booknow.html" class="nav-link">
+               Book Now</a>
+
+                <a href="#" class="nav-link text-secondary">
+                    Contact
+                </a>
+
+            </div>
+
+
+            <!-- RIGHT -->
+            <div class="d-flex flex-column flex-lg-row align-items-lg-center gap-2 mt-3 mt-lg-0">
+
+                <span class="text-secondary">
+                    📞 +92 300 1234567
+                </span>
+
+             <a href="login.html" class="btn px-4"
+             style="border:1px solid #7837e8;color:#7837e8;">
+                 Login</a>
+
+
+             <a href="register.html" class="btn px-4 text-white"
+             style="background:#7837e8;">
+                Register</a>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</nav>
+
+<section class="py-4" style="background:#f5efff;">
+    <div class="container py-4">
+
+        <div class="row align-items-center g-5">
+
+            <!-- LEFT CONTENT -->
+            <div class="col-lg-6">
+
+                <span class="badge rounded-pill px-3 py-2 mb-4"
+                      style="background:#eadcff; color:#7435df;">
+                    🐾 Trusted Pet Care Services
+                </span>
+
+                <h1 class="display-3 fw-bold lh-1 mb-4">
+                    Book The Best Care
+                    <br>
+                    For <span style="color:#7837e8;">Your Pets</span>
+                </h1>
+
+                <p class="fs-5 text-secondary mb-4">
+                    Find trusted pet care professionals near you.
+                    Grooming, walking, sitting and more – all in one place.
+                </p>
+
+                <!-- SEARCH BOX -->
+                <div class="bg-white rounded-4 p-2 shadow-sm mb-4">
+
+                    <div class="row g-0 align-items-center">
+
+                        <div class="col-md-4">
+                            <input type="text"
+                                   class="form-control border-0"
+                                   placeholder="Search services...">
+                        </div>
+
+                        <div class="col-md-3">
+                            <input type="text"
+                                   class="form-control border-0"
+                                   placeholder="Enter location...">
+                        </div>
+
+                        <div class="col-md-2">
+                            <input type="text"
+                                   class="form-control border-0"
+                                   placeholder="Select date...">
+                        </div>
+
+                        <div class="col-md-3">
+                            <button class="btn w-100 py-3 rounded-3 text-white"
+                                    style="background:#7837e8;">
+                                🔍 Search
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- FEATURES -->
+                <div class="d-flex flex-wrap gap-4">
+
+                    <span>
+                        🛡️ Verified Professionals
+                    </span>
+
+                    <span>
+                        🔒 Secure Booking
+                    </span>
+
+                    <span>
+                        📞 24/7 Support
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- RIGHT IMAGE -->
+            <div class="col-lg-6 position-relative">
+
+                <div class="position-relative">
+
+                    <img src="images/pet img.png"
+                         class="img-fluid w-100 rounded-4"
+                         alt="Dog and Cat">
+
+                    <!-- CARD -->
+                  <div class="position-absolute bg-white rounded-4 shadow p-3 hero-card"
+                    style="right:-100px; top:50%; transform:translateY(-50%); width:190px; ">
+
+                        <h5 class="fw-bold mb-1">
+                            Happy Pets
+                        </h5>
+
+                        <h5 style="color:#7837e8;">
+                            Happy Life
+                        </h5>
+
+                        <hr>
+
+                        <small class="text-secondary">
+                            Professional care<br>
+                            you can trust.
+                        </small>
+
+                       <button class="btn btn-sm text-white mt-3 px-3"
+                      style="background:#7837e8;">
+                          Book Now 🐾</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+   <section class="py-4 bg-white">
+
+    <div class="container">
+
+        <div class="bg-white rounded-4 shadow p-3"
+             style="margin-top:-35px; position:relative; z-index:2;">
+
+            <div class="row text-center g-0">
+
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="py-3">
+                        <div class="fs-3 mb-2">✂️</div>
+                        <h6 class="fw-bold">Pet Grooming</h6>
+                        <small class="text-secondary">Make them look great</small>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="py-3">
+                        <div class="fs-3 mb-2">🐕</div>
+                        <h6 class="fw-bold">Dog Walking</h6>
+                        <small class="text-secondary">Healthy walks daily</small>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="py-3">
+                        <div class="fs-3 mb-2">🏠</div>
+                        <h6 class="fw-bold">Pet Sitting</h6>
+                        <small class="text-secondary">Care at your home</small>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="py-3">
+                        <div class="fs-3 mb-2">🩺</div>
+                        <h6 class="fw-bold">Vet Consultation</h6>
+                        <small class="text-secondary">Expert health care</small>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="py-3">
+                        <div class="fs-3 mb-2">🛏️</div>
+                        <h6 class="fw-bold">Pet Boarding</h6>
+                        <small class="text-secondary">Stay while you're away</small>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="py-3">
+                        <div class="fs-3 mb-2">✂️</div>
+                        <h6 class="fw-bold">Pet Haircut</h6>
+                        <small class="text-secondary">Stylish & Hygienic</small>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+  <div class="text-center py-4">
+
+    <h2 class="fw-bold text-dark mb-2">
+        🐾 Popular Pet Care Providers
+    </h2>
+
+    <p class="text-muted mb-0">
+        Top rated professionals loved by pets and pet parents.
+    </p>
+
+</div>
+
+<!-- POPULAR PET CARE PROVIDERS -->
+<section class="py-4 bg-white">
+
+    <div class="container">
+
+        <!-- Heading -->
+        <div class="text-center mb-4">
+
+            <h3 class="fw-bold mb-1">
+                🐾 <span style="color:#7837e8;">Popular Pet Care Providers</span>
+            </h3>
+
+            <p class="text-secondary mb-0">
+                Top rated professionals loved by pets and pet parents.
+            </p>
+
+        </div>
+
+
+        <!-- Provider Cards -->
+        <div class="row g-3">
+
+
+            <!-- Card 1 -->
+            <div class="col-lg-2 col-md-4 col-6">
+
+                <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-100">
+
+                    <img src="images/provider 1.png"
+                         class="card-img-top"
+                         style="height:120px; object-fit:cover;"
+                         alt="Pet Paradise Grooming">
+
+                    <div class="card-body p-2">
+
+                        <span class="badge rounded-pill"
+                              style="background:#eee3ff;color:#7837e8;">
+                            ⭐ 4.9
+                        </span>
+
+                        <h6 class="fw-bold mt-2 mb-1">
+                            Pet Paradise Grooming
+                        </h6>
+
+                        <small class="text-secondary d-block">
+                            Pet Grooming
+                        </small>
+
+                        <small class="text-secondary d-block">
+                            Karachi
+                        </small>
+
+                        <small class="fw-bold d-block mt-1">
+                            From Rs. 1,200
+                        </small>
+
+                        <button class="btn btn-outline-primary btn-sm w-100 mt-2"
+                                style="border-color:#7837e8;color:#7837e8;">
+                            View Profile
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Card 2 -->
+            <div class="col-lg-2 col-md-4 col-6">
+
+                <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-100">
+
+                    <img src="images/provider 2.png"
+                         class="card-img-top"
+                         style="height:120px; object-fit:cover;"
+                         alt="Happy Paws Walkers">
+
+                    <div class="card-body p-2">
+
+                        <span class="badge rounded-pill"
+                              style="background:#eee3ff;color:#7837e8;">
+                            ⭐ 4.8
+                        </span>
+
+                        <h6 class="fw-bold mt-2 mb-1">
+                            Happy Paws Walkers
+                        </h6>
+
+                        <small class="text-secondary d-block">
+                            Dog Walking
+                        </small>
+
+                        <small class="text-secondary d-block">
+                            Karachi
+                        </small>
+
+                        <small class="fw-bold d-block mt-1">
+                            From Rs. 800
+                        </small>
+
+                        <button class="btn btn-outline-primary btn-sm w-100 mt-2"
+                                style="border-color:#7837e8;color:#7837e8;">
+                            View Profile
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Card 3 -->
+            <div class="col-lg-2 col-md-4 col-6">
+
+                <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-100">
+
+                    <img src="images/provider 3.png"
+                         class="card-img-top"
+                         style="height:120px; object-fit:cover;"
+                         alt="Purrfect Pet Sitters">
+
+                    <div class="card-body p-2">
+
+                        <span class="badge rounded-pill"
+                              style="background:#eee3ff;color:#7837e8;">
+                            ⭐ 4.9
+                        </span>
+
+                        <h6 class="fw-bold mt-2 mb-1">
+                            Purrfect Pet Sitters
+                        </h6>
+
+                        <small class="text-secondary d-block">
+                            Pet Sitting
+                        </small>
+
+                        <small class="text-secondary d-block">
+                            Karachi
+                        </small>
+
+                        <small class="fw-bold d-block mt-1">
+                            From Rs. 1,000
+                        </small>
+
+                        <button class="btn btn-outline-primary btn-sm w-100 mt-2"
+                                style="border-color:#7837e8;color:#7837e8;">
+                            View Profile
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Card 4 -->
+            <div class="col-lg-2 col-md-4 col-6">
+
+                <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-100">
+
+                    <img src="images/provider 4.png"
+                         class="card-img-top"
+                         style="height:120px; object-fit:cover;"
+                         alt="VetCare Clinic">
+
+                    <div class="card-body p-2">
+
+                        <span class="badge rounded-pill"
+                              style="background:#eee3ff;color:#7837e8;">
+                            ⭐ 4.7
+                        </span>
+
+                        <h6 class="fw-bold mt-2 mb-1">
+                            VetCare Clinic
+                        </h6>
+
+                        <small class="text-secondary d-block">
+                            Vet Consultation
+                        </small>
+
+                        <small class="text-secondary d-block">
+                            Karachi
+                        </small>
+
+                        <small class="fw-bold d-block mt-1">
+                            From Rs. 1,500
+                        </small>
+
+                        <button class="btn btn-outline-primary btn-sm w-100 mt-2"
+                                style="border-color:#7837e8;color:#7837e8;">
+                            View Profile
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Card 5 -->
+            <div class="col-lg-2 col-md-4 col-6">
+
+                <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-100">
+
+                    <img src="images/provider 5.png"
+                         class="card-img-top"
+                         style="height:120px; object-fit:cover;"
+                         alt="PawStay Boarding">
+
+                    <div class="card-body p-2">
+
+                        <span class="badge rounded-pill"
+                              style="background:#eee3ff;color:#7837e8;">
+                            ⭐ 4.8
+                        </span>
+
+                        <h6 class="fw-bold mt-2 mb-1">
+                            PawStay Boarding
+                        </h6>
+
+                        <small class="text-secondary d-block">
+                            Pet Boarding
+                        </small>
+
+                        <small class="text-secondary d-block">
+                            Karachi
+                        </small>
+
+                        <small class="fw-bold d-block mt-1">
+                            From Rs. 1,800
+                        </small>
+
+                        <button class="btn btn-outline-primary btn-sm w-100 mt-2"
+                                style="border-color:#7837e8;color:#7837e8;">
+                            View Profile
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Card 6 -->
+            <div class="col-lg-2 col-md-4 col-6">
+
+                <div class="card border-0 shadow-sm rounded-4 overflow-hidden h-100">
+
+                    <img src="images/provider 6.png"
+                         class="card-img-top"
+                         style="height:120px; object-fit:cover;"
+                         alt="Style Tails">
+
+                    <div class="card-body p-2">
+
+                        <span class="badge rounded-pill"
+                              style="background:#eee3ff;color:#7837e8;">
+                            ⭐ 4.9
+                        </span>
+
+                        <h6 class="fw-bold mt-2 mb-1">
+                            Style Tails
+                        </h6>
+
+                        <small class="text-secondary d-block">
+                            Pet Haircut
+                        </small>
+
+                        <small class="text-secondary d-block">
+                            Karachi
+                        </small>
+
+                        <small class="fw-bold d-block mt-1">
+                            From Rs. 1,100
+                        </small>
+
+                        <button class="btn btn-outline-primary btn-sm w-100 mt-2"
+                                style="border-color:#7837e8;color:#7837e8;">
+                            View Profile
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- LAST FEATURES SECTION -->
+<div class="container mt-4 mb-5">
+
+    <div class="row bg-light rounded-4 shadow-sm py-3 text-center">
+
+        <!-- Trusted -->
+        <div class="col-md-3 border-end">
+            <div class="d-flex align-items-center justify-content-center gap-3">
+                <span class="fs-2" style="color:#7837e8;">🛡️</span>
+
+                <div class="text-start">
+                    <h6 class="fw-bold mb-1">Trusted & Verified</h6>
+                    <small class="text-secondary">
+                        All professionals are<br>
+                        background checked.
+                    </small>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Easy Booking -->
+        <div class="col-md-3 border-end">
+            <div class="d-flex align-items-center justify-content-center gap-3">
+                <span class="fs-2" style="color:#f43f8e;">📅</span>
+
+                <div class="text-start">
+                    <h6 class="fw-bold mb-1">Easy Booking</h6>
+                    <small class="text-secondary">
+                        Book in just a few clicks<br>
+                        anytime, anywhere.
+                    </small>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Secure Payments -->
+        <div class="col-md-3 border-end">
+            <div class="d-flex align-items-center justify-content-center gap-3">
+                <span class="fs-2" style="color:#55b947;">🛡️</span>
+
+                <div class="text-start">
+                    <h6 class="fw-bold mb-1">Secure Payments</h6>
+                    <small class="text-secondary">
+                        Multiple secure payment<br>
+                        options available.
+                    </small>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Support -->
+        <div class="col-md-3">
+            <div class="d-flex align-items-center justify-content-center gap-3">
+                <span class="fs-2" style="color:#2475ed;">🎧</span>
+
+                <div class="text-start">
+                    <h6 class="fw-bold mb-1">24/7 Support</h6>
+                    <small class="text-secondary">
+                        We're here to help<br>
+                        you anytime.
+                    </small>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer class="mt-5 pt-5 pb-3" style="background:#f3edff;">
+
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Logo / About -->
+            <div class="col-lg-4 mb-4">
+
+                <h3 class="fw-bold">
+                    🐾 Paw<span style="color:#7837e8;">Care</span>
+                </h3>
+
+                <p class="text-secondary mt-3">
+                    Happy Pet, Happy You
+                </p>
+
+                <p class="text-secondary">
+                    Trusted pet care services for your
+                    beloved pets. Find professional care
+                    you can trust.
+                </p>
+
+            </div>
+
+
+            <!-- Quick Links -->
+            <div class="col-lg-2 col-md-4 mb-4">
+
+                <h5 class="fw-bold mb-3">
+                    Quick Links
+                </h5>
+
+                <a href="index.html"
+                   class="d-block text-secondary text-decoration-none mb-2">
+                    Home
+                </a>
+
+                <a href="services.html"
+                   class="d-block text-secondary text-decoration-none mb-2">
+                    Services
+                </a>
+
+                <a href="providers.html"
+                   class="d-block text-secondary text-decoration-none mb-2">
+                    Providers
+                </a>
+
+                <a href="#"
+                   class="d-block text-secondary text-decoration-none">
+                    About Us
+                </a>
+
+            </div>
+
+
+            <!-- Services -->
+            <div class="col-lg-3 col-md-4 mb-4">
+
+                <h5 class="fw-bold mb-3">
+                    Our Services
+                </h5>
+
+                <p class="text-secondary mb-2">
+                    🐕 Pet Grooming
+                </p>
+
+                <p class="text-secondary mb-2">
+                    🦮 Dog Walking
+                </p>
+
+                <p class="text-secondary mb-2">
+                    🏠 Pet Sitting
+                </p>
+
+                <p class="text-secondary mb-2">
+                    🩺 Vet Consultation
+                </p>
+
+            </div>
+
+
+            <!-- Contact -->
+            <div class="col-lg-3 col-md-4 mb-4">
+
+                <h5 class="fw-bold mb-3">
+                    Contact Us
+                </h5>
+
+                <p class="text-secondary">
+                    📞 +92 300 1234567
+                </p>
+
+                <p class="text-secondary">
+                    📧 info@pawcare.com
+                </p>
+
+                <p class="text-secondary">
+                    📍 Karachi, Pakistan
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Bottom -->
+        <hr>
+
+        <div class="text-center pt-2">
+
+            <p class="text-secondary mb-0">
+                © 2026 PawCare. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
